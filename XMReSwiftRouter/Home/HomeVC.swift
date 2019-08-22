@@ -24,6 +24,7 @@ class HomeVC: UIViewController, Routable {
     
     @objc func navToMy(sender: AnyObject) {
         
+        // 可以使用这种方式传值，但是对于的界面要调用AppStore的subscribe，自己就不能调用自己Store的subscribe
 //        appStore.dispatch(SetRouteSpecificData(route: [RouteNames.my], data: "我传的数据"))
         
         // 如果需要传参，使用MyStore调用响应的Action
