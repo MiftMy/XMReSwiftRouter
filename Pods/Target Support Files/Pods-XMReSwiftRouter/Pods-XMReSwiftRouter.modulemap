@@ -1,0 +1,6 @@
+framework module Pods_XMReSwiftRouter {
+  umbrella header "Pods-XMReSwiftRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

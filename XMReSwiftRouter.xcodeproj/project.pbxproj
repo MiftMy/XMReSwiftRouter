@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,30 @@
 		2C4BAC58230E3F3F0048CC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BAC56230E3F3F0048CC53 /* LaunchScreen.storyboard */; };
 		2C4BAC63230E3F3F0048CC53 /* XMReSwiftRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC62230E3F3F0048CC53 /* XMReSwiftRouterTests.swift */; };
 		2C4BAC6E230E3F3F0048CC53 /* XMReSwiftRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC6D230E3F3F0048CC53 /* XMReSwiftRouterUITests.swift */; };
+		2C4BAC7F230E3FAA0048CC53 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC7B230E3FAA0048CC53 /* AppState.swift */; };
+		2C4BAC80230E3FAA0048CC53 /* AppRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC7C230E3FAA0048CC53 /* AppRoutable.swift */; };
+		2C4BAC81230E3FAA0048CC53 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC7D230E3FAA0048CC53 /* AppRouter.swift */; };
+		2C4BAC82230E3FAA0048CC53 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC7E230E3FAA0048CC53 /* AppReducer.swift */; };
+		2C4BAC87230E3FDF0048CC53 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC85230E3FDF0048CC53 /* CollectionViewDataSource.swift */; };
+		2C4BAC88230E3FDF0048CC53 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC86230E3FDF0048CC53 /* TableViewDataSource.swift */; };
+		2C4BACA1230E3FF10048CC53 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC8B230E3FF00048CC53 /* MessageVC.swift */; };
+		2C4BACA3230E3FF10048CC53 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC8E230E3FF00048CC53 /* MessageModel.swift */; };
+		2C4BACA4230E3FF10048CC53 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC90230E3FF00048CC53 /* MessageCell.swift */; };
+		2C4BACA5230E3FF10048CC53 /* MessageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC92230E3FF00048CC53 /* MessageState.swift */; };
+		2C4BACA6230E3FF10048CC53 /* MessageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC93230E3FF00048CC53 /* MessageAction.swift */; };
+		2C4BACA7230E3FF10048CC53 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC94230E3FF00048CC53 /* MessageStore.swift */; };
+		2C4BACA8230E3FF10048CC53 /* MessageReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC95230E3FF00048CC53 /* MessageReducer.swift */; };
+		2C4BACAA230E3FF10048CC53 /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC98230E3FF00048CC53 /* HomeState.swift */; };
+		2C4BACAB230E3FF10048CC53 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC99230E3FF00048CC53 /* HomeVC.swift */; };
+		2C4BACAC230E3FF10048CC53 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC9A230E3FF00048CC53 /* HomeReducer.swift */; };
+		2C4BACAD230E3FF10048CC53 /* MyReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC9C230E3FF10048CC53 /* MyReducer.swift */; };
+		2C4BACAE230E3FF10048CC53 /* MyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC9D230E3FF10048CC53 /* MyVC.swift */; };
+		2C4BACAF230E3FF10048CC53 /* MyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC9E230E3FF10048CC53 /* MyStore.swift */; };
+		2C4BACB0230E3FF10048CC53 /* MyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAC9F230E3FF10048CC53 /* MyState.swift */; };
+		2C4BACB1230E3FF10048CC53 /* MyActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BACA0230E3FF10048CC53 /* MyActions.swift */; };
+		2C4BACB3230E404C0048CC53 /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BACB2230E404C0048CC53 /* HomeStore.swift */; };
+		2C4BACB5230E40580048CC53 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BACB4230E40580048CC53 /* HomeAction.swift */; };
+		F9D3566288E77CB59E0AA775 /* Pods_XMReSwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5958F0CED4A942444B70DA /* Pods_XMReSwiftRouter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		089D5FCA08A717B2BD637F02 /* Pods-XMReSwiftRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMReSwiftRouter.release.xcconfig"; path = "Target Support Files/Pods-XMReSwiftRouter/Pods-XMReSwiftRouter.release.xcconfig"; sourceTree = "<group>"; };
+		1F5958F0CED4A942444B70DA /* Pods_XMReSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMReSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4BAC4A230E3F3F0048CC53 /* XMReSwiftRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMReSwiftRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4BAC4D230E3F3F0048CC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4BAC4F230E3F3F0048CC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,30 @@
 		2C4BAC69230E3F3F0048CC53 /* XMReSwiftRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMReSwiftRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4BAC6D230E3F3F0048CC53 /* XMReSwiftRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMReSwiftRouterUITests.swift; sourceTree = "<group>"; };
 		2C4BAC6F230E3F3F0048CC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4BAC7B230E3FAA0048CC53 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		2C4BAC7C230E3FAA0048CC53 /* AppRoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRoutable.swift; sourceTree = "<group>"; };
+		2C4BAC7D230E3FAA0048CC53 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		2C4BAC7E230E3FAA0048CC53 /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		2C4BAC85230E3FDF0048CC53 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		2C4BAC86230E3FDF0048CC53 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		2C4BAC8B230E3FF00048CC53 /* MessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		2C4BAC8E230E3FF00048CC53 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		2C4BAC90230E3FF00048CC53 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		2C4BAC92230E3FF00048CC53 /* MessageState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageState.swift; sourceTree = "<group>"; };
+		2C4BAC93230E3FF00048CC53 /* MessageAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageAction.swift; sourceTree = "<group>"; };
+		2C4BAC94230E3FF00048CC53 /* MessageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
+		2C4BAC95230E3FF00048CC53 /* MessageReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageReducer.swift; sourceTree = "<group>"; };
+		2C4BAC98230E3FF00048CC53 /* HomeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
+		2C4BAC99230E3FF00048CC53 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2C4BAC9A230E3FF00048CC53 /* HomeReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
+		2C4BAC9C230E3FF10048CC53 /* MyReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReducer.swift; sourceTree = "<group>"; };
+		2C4BAC9D230E3FF10048CC53 /* MyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVC.swift; sourceTree = "<group>"; };
+		2C4BAC9E230E3FF10048CC53 /* MyStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStore.swift; sourceTree = "<group>"; };
+		2C4BAC9F230E3FF10048CC53 /* MyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyState.swift; sourceTree = "<group>"; };
+		2C4BACA0230E3FF10048CC53 /* MyActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyActions.swift; sourceTree = "<group>"; };
+		2C4BACB2230E404C0048CC53 /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
+		2C4BACB4230E40580048CC53 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
+		5479F7BC53FFA532DEFBAF77 /* Pods-XMReSwiftRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMReSwiftRouter.debug.xcconfig"; path = "Target Support Files/Pods-XMReSwiftRouter/Pods-XMReSwiftRouter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D3566288E77CB59E0AA775 /* Pods_XMReSwiftRouter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +132,8 @@
 				2C4BAC61230E3F3F0048CC53 /* XMReSwiftRouterTests */,
 				2C4BAC6C230E3F3F0048CC53 /* XMReSwiftRouterUITests */,
 				2C4BAC4B230E3F3F0048CC53 /* Products */,
+				DED370A69693F3995A671F87 /* Pods */,
+				89C4A9083C718575C62A4B5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +150,11 @@
 		2C4BAC4C230E3F3F0048CC53 /* XMReSwiftRouter */ = {
 			isa = PBXGroup;
 			children = (
+				2C4BAC89230E3FF00048CC53 /* Message */,
+				2C4BAC97230E3FF00048CC53 /* Home */,
+				2C4BAC9B230E3FF10048CC53 /* My */,
+				2C4BAC84230E3FDF0048CC53 /* Datasource */,
+				2C4BAC83230E3FAD0048CC53 /* Router */,
 				2C4BAC4D230E3F3F0048CC53 /* AppDelegate.swift */,
 				2C4BAC4F230E3F3F0048CC53 /* ViewController.swift */,
 				2C4BAC51230E3F3F0048CC53 /* Main.storyboard */,
@@ -125,6 +183,113 @@
 			path = XMReSwiftRouterUITests;
 			sourceTree = "<group>";
 		};
+		2C4BAC83230E3FAD0048CC53 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC7E230E3FAA0048CC53 /* AppReducer.swift */,
+				2C4BAC7C230E3FAA0048CC53 /* AppRoutable.swift */,
+				2C4BAC7D230E3FAA0048CC53 /* AppRouter.swift */,
+				2C4BAC7B230E3FAA0048CC53 /* AppState.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2C4BAC84230E3FDF0048CC53 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC85230E3FDF0048CC53 /* CollectionViewDataSource.swift */,
+				2C4BAC86230E3FDF0048CC53 /* TableViewDataSource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		2C4BAC89230E3FF00048CC53 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC8A230E3FF00048CC53 /* VC */,
+				2C4BAC8D230E3FF00048CC53 /* Model */,
+				2C4BAC8F230E3FF00048CC53 /* View */,
+				2C4BAC91230E3FF00048CC53 /* Redux */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2C4BAC8A230E3FF00048CC53 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC8B230E3FF00048CC53 /* MessageVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		2C4BAC8D230E3FF00048CC53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC8E230E3FF00048CC53 /* MessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C4BAC8F230E3FF00048CC53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC90230E3FF00048CC53 /* MessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C4BAC91230E3FF00048CC53 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC92230E3FF00048CC53 /* MessageState.swift */,
+				2C4BAC93230E3FF00048CC53 /* MessageAction.swift */,
+				2C4BAC94230E3FF00048CC53 /* MessageStore.swift */,
+				2C4BAC95230E3FF00048CC53 /* MessageReducer.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		2C4BAC97230E3FF00048CC53 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC99230E3FF00048CC53 /* HomeVC.swift */,
+				2C4BAC98230E3FF00048CC53 /* HomeState.swift */,
+				2C4BACB2230E404C0048CC53 /* HomeStore.swift */,
+				2C4BAC9A230E3FF00048CC53 /* HomeReducer.swift */,
+				2C4BACB4230E40580048CC53 /* HomeAction.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2C4BAC9B230E3FF10048CC53 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BAC9D230E3FF10048CC53 /* MyVC.swift */,
+				2C4BAC9C230E3FF10048CC53 /* MyReducer.swift */,
+				2C4BAC9E230E3FF10048CC53 /* MyStore.swift */,
+				2C4BAC9F230E3FF10048CC53 /* MyState.swift */,
+				2C4BACA0230E3FF10048CC53 /* MyActions.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		89C4A9083C718575C62A4B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5958F0CED4A942444B70DA /* Pods_XMReSwiftRouter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED370A69693F3995A671F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5479F7BC53FFA532DEFBAF77 /* Pods-XMReSwiftRouter.debug.xcconfig */,
+				089D5FCA08A717B2BD637F02 /* Pods-XMReSwiftRouter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C4BAC72230E3F3F0048CC53 /* Build configuration list for PBXNativeTarget "XMReSwiftRouter" */;
 			buildPhases = (
+				90B62D74DACA6733FEDFE35A /* [CP] Check Pods Manifest.lock */,
 				2C4BAC46230E3F3F0048CC53 /* Sources */,
 				2C4BAC47230E3F3F0048CC53 /* Frameworks */,
 				2C4BAC48230E3F3F0048CC53 /* Resources */,
+				6E4B8EB2F6C68FC4ABEE1CF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +418,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E4B8EB2F6C68FC4ABEE1CF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMReSwiftRouter/Pods-XMReSwiftRouter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMReSwiftRouter/Pods-XMReSwiftRouter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMReSwiftRouter/Pods-XMReSwiftRouter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B62D74DACA6733FEDFE35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMReSwiftRouter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C4BAC46230E3F3F0048CC53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4BAC82230E3FAA0048CC53 /* AppReducer.swift in Sources */,
+				2C4BACA1230E3FF10048CC53 /* MessageVC.swift in Sources */,
+				2C4BAC7F230E3FAA0048CC53 /* AppState.swift in Sources */,
+				2C4BACA5230E3FF10048CC53 /* MessageState.swift in Sources */,
+				2C4BACAA230E3FF10048CC53 /* HomeState.swift in Sources */,
+				2C4BAC88230E3FDF0048CC53 /* TableViewDataSource.swift in Sources */,
+				2C4BACAF230E3FF10048CC53 /* MyStore.swift in Sources */,
+				2C4BACAD230E3FF10048CC53 /* MyReducer.swift in Sources */,
+				2C4BACAC230E3FF10048CC53 /* HomeReducer.swift in Sources */,
+				2C4BACA7230E3FF10048CC53 /* MessageStore.swift in Sources */,
+				2C4BACA4230E3FF10048CC53 /* MessageCell.swift in Sources */,
 				2C4BAC50230E3F3F0048CC53 /* ViewController.swift in Sources */,
+				2C4BACAE230E3FF10048CC53 /* MyVC.swift in Sources */,
 				2C4BAC4E230E3F3F0048CC53 /* AppDelegate.swift in Sources */,
+				2C4BACA6230E3FF10048CC53 /* MessageAction.swift in Sources */,
+				2C4BACB1230E3FF10048CC53 /* MyActions.swift in Sources */,
+				2C4BACB3230E404C0048CC53 /* HomeStore.swift in Sources */,
+				2C4BAC81230E3FAA0048CC53 /* AppRouter.swift in Sources */,
+				2C4BACA3230E3FF10048CC53 /* MessageModel.swift in Sources */,
+				2C4BAC80230E3FAA0048CC53 /* AppRoutable.swift in Sources */,
+				2C4BACA8230E3FF10048CC53 /* MessageReducer.swift in Sources */,
+				2C4BACB5230E40580048CC53 /* HomeAction.swift in Sources */,
+				2C4BACAB230E3FF10048CC53 /* HomeVC.swift in Sources */,
+				2C4BAC87230E3FDF0048CC53 /* CollectionViewDataSource.swift in Sources */,
+				2C4BACB0230E3FF10048CC53 /* MyState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +662,12 @@
 		};
 		2C4BAC73230E3F3F0048CC53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5479F7BC53FFA532DEFBAF77 /* Pods-XMReSwiftRouter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XMReSwiftRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +681,12 @@
 		};
 		2C4BAC74230E3F3F0048CC53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089D5FCA08A717B2BD637F02 /* Pods-XMReSwiftRouter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XMReSwiftRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
